@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B6E2525-8F9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{390E7785-6B35-42FF-9622-8C0025676C3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordSample", "src\RecordSample\RecordSample.csproj", "{6F5D3DF5-224D-47EE-8C43-E7B38C55DB00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +19,14 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6BEFFBA-0D0D-43C9-8EED-F4EE18189972}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F5D3DF5-224D-47EE-8C43-E7B38C55DB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5D3DF5-224D-47EE-8C43-E7B38C55DB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5D3DF5-224D-47EE-8C43-E7B38C55DB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5D3DF5-224D-47EE-8C43-E7B38C55DB00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F5D3DF5-224D-47EE-8C43-E7B38C55DB00} = {0B6E2525-8F9D-4867-9B51-9DA34BEEF416}
 	EndGlobalSection
 EndGlobal
